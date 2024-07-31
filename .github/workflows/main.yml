@@ -1,8 +1,8 @@
 name: Add Duplicate
 
 on:
-  issues:
-    types: opened
+  issues_comment:
+    types: created
 
 jobs:
   add_label:
