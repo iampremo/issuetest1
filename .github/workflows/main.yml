@@ -1,7 +1,7 @@
 name: Add Duplicate
 
 on:
-  issues_comment:
+  issue_comment:
     types: created
 
 jobs:
