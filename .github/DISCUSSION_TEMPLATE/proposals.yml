@@ -14,7 +14,13 @@ body:
   - type: textarea
     attributes:
       label: Design and Implementation
-      description: Explain in detail
+      description: >
+       Explain in detail
+       - How the feature will positively/negatively interact with existing features (if any).
+       - How the feature should be implemented; syntax and semantics.
+       - If the feature is a new expression/operator, specify its operator precedence and associativity.
+       - If the feature is part of the runtime, what is the expected runtime behaviour?
+       - Any edge cases that could occur, and how to resolve them.
     validations:
       required: true
   - type: textarea
