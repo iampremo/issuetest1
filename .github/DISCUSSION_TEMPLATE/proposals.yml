@@ -15,7 +15,7 @@ body:
     attributes:
       label: Design and Implementation
       description: >
-       Explain in detail
+       Explain in detail:
        
        - How the feature will positively/negatively interact with existing features (if any).
        
@@ -31,7 +31,13 @@ body:
   - type: textarea
     attributes:
       label: Rationale
-      description: Explain your design decisions
+      description: >
+        Explain your design decisions:
+        
+        - Why is this the best design? Influences from other languages (if any).
+        
+        - What are the alternatives? Could this feature be done using GML instead?
+
     validations:
       required: true
   - type: textarea
