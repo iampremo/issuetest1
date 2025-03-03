@@ -23,19 +23,19 @@ body:
       description: Explain your design decisions
     validations:
       required: true
- - type: textarea
+  - type: textarea
     attributes:
       label: Drawbacks
       description: Why shouldnt this feature be added
     validations:
       required: true
-- type: textarea
+  - type: textarea
     attributes:
       label: Unanswered Questions
       description: (Optional) Gaps in your design that you are unsure of.
     validations:
       required: false
-- type: textarea
+  - type: textarea
     attributes:
       label: Future Additions
       description: (Optional) Out-of-scope additions to the feature that could be expanded upon in a future proposal.
