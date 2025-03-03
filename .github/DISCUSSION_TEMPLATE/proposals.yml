@@ -14,13 +14,13 @@ body:
   - type: textarea
     attributes:
       label: Design and Implementation
-      description: Explain in detail:
+      description: Explain in detail
     validations:
       required: true
   - type: textarea
     attributes:
       label: Rationale
-      description: Explain your design decisions:
+      description: Explain your design decisions
     validations:
       required: true
  - type: textarea
