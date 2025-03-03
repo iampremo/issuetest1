@@ -26,7 +26,7 @@ body:
  - type: textarea
     attributes:
       label: Drawbacks
-      description: Why **shouldn't** this feature be added
+      description: Why shouldnt this feature be added
     validations:
       required: true
 - type: textarea
