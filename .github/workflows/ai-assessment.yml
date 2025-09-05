@@ -1,0 +1,17 @@
+name: AI Assessment
+
+on:
+  issues:
+    types:
+      - labeled
+
+jobs:
+  add_label:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      models: read
+      contents: read
+    steps:
+      - name: AI Assessment Comment Labeler
+        uses: github/ai-assessment-comment-labeler@v1.0.0
